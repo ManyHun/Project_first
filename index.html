@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+        integrity="sha512-IJEbgDEF7OeKJRa0MY2PApnyJHRIsgzCveek4ec8VWQ+7KG3ZSKVNYa5xP/Gh0hVP0Mwb+gBsk+GwR3JQGhQNg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- 애니메이션 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+        integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--구글 폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--제이쿼리-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+
+
+
+    <!-- main 내가 작성 -->
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer src="./js/main.js"></script>
+    <script defer src="./js/sub-slide.js"></script>
+    <script src="./js/nav.js"></script>
+
+
+
+</head>
+
+<body>
+    <!-- 클래스명 다 바꾸면 이 글 지우기 -->
+    <!--헤더 and 메뉴-->
+    <header>
+        <div class="logo-img"><a href="#"><img src="./imges/logo.png" alt=""></a></div>
+    </header>
+    <ul class="main-menu">
+        <li class="menu-img"><a href="#"><img src="./imges/logo-menu.png" alt=""></a></li>
+        <li class="reservation"><a href="#">Reservation</a></li>
+        <li class="item">
+            <a href="#" class="item-name">Offers</a>
+            <div class="content-menu">
+                <ul class="inner">
+                    <li><a href="#">Package</a></li>
+                    <li><a href="#">Event</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="item">
+            <a href="#" class="item-name">Accommodation</a>
+            <div class="content-menu">
+                <ul class="inner">
+                    <li><a href="#">Standard</a></li>
+                    <li><a href="#">Executive</a></li>
+                    <li><a href="#">Suite</a></li>
+                    <li><a href="#">The Executive Lounge</a></li>
+                    <li><a href="#">All Rooms</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="item">
+            <a href="#" class="item-name">Dining</a>
+            <div class="content-menu">
+                <ul class="inner">
+                    <li><a href="#">Restaurant</a></li>
+                    <li><a href="#">Lounge & Bar</a></li>
+                    <li><a href="#">Bakery</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="item">
+            <a href="#" class="item-name">Life Style</a>
+            <div class="content-menu">
+                <ul class="inner">
+                    <li><a href="#">Outdoor Pool</a></li>
+                    <li><a href="#">spa</a></li>
+                    <li><a href="#">Fitness</a></li>
+                    <li><a href="#">Walking Tralis</a></li>
+                    <li><a href="#">Shopping</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="item">
+            <a href="#" class="item-name">Meeting & Event</a>
+            <div class="content-menu">
+                <ul class="inner">
+                    <li><a href="#">Wedding</a></li>
+                    <li><a href="#">Meetings</a></li>
+                    <li><a href="#">Celebrations</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="item">
+            <a href="#" class="item-name">Gallery</a>
+            <div class="content-menu">
+                <ul class="inner">
+                    <li><a href="#">photo</a></li>
+                    <li><a href="#">video</a></li>
+                </ul>
+            </div>
+        </li>
+
+    </ul>
+    <div class="promotion">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./imges/hotel-gc86c267c9_1920.jpg" alt="호텔1">
+
+                </div>
+                <div class="swiper-slide">
+                    <img src="./imges/singapore_1920.jpg" alt="호텔2">
+
+                </div>
+                <div class="swiper-slide">
+                    <img src="./imges/nature-g738e873d5_1920.jpg" alt="호텔3">
+
+                </div>
+                <div class="swiper-slide">
+                    <img src="./imges/bedroom-g713edd2d8_1920.jpg" alt="호텔4">
+
+                </div>
+                <div class="swiper-slide">
+                    <img src="./imges/castle-park_1920.jpg" alt="호텔5.">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- animate-text -->
+    <section class="animate-text scroll-spy">
+        <h2 class="hidden">animate효과</h2>
+        <div class="left-box back-to-position to-left delay-1">
+            <p class="text1">신라호텔은</p>
+            <p class="text2">산책코스도 있어요</p>
+            <p class="text3">정말 좋죠?</p>
+            <p class="text4">
+                신라호텔을 만들면서 무슨 생각을 하나요?<br />
+                아무 글이나 쓰는 중 입니다.<br />
+                애니메이션 만들기
+            </p>
+            <p class="text4">
+                신라호텔을 만들면서 무슨 생각을 하나요?<br />
+                아무 글이나 쓰는 중 입니다.<br />
+                애니메이션 만들기
+            </p>
+        </div>
+        <div class="right-box back-to-position to-right delay-1">
+            <img src="./imges/Acos.jpg" alt="goods" />
+        </div>
+    </section>
+
+    <section class="animate-text scroll-spy">
+        <h2 class="hidden">animate효과</h2>
+        <div class="left-box back-to-position to-left delay-2">
+            <img src="./imges/Acos.jpg" alt="goods" />
+        </div>
+        <div class="right-box back-to-position to-right delay-2">
+            <p class="text1">신라호텔은</p>
+            <p class="text2">산책코스도 있어요</p>
+            <p class="text3">정말 좋죠?</p>
+            <p class="text4">
+                신라호텔을 만들면서 무슨 생각을 하나요?<br />
+                아무 글이나 쓰는 중 입니다.<br />
+                애니메이션 만들기
+            </p>
+            <p class="text4">
+                신라호텔을 만들면서 무슨 생각을 하나요?<br />
+                아무 글이나 쓰는 중 입니다.<br />
+                애니메이션 만들기
+            </p>
+        </div>
+    </section>
+
+    <section class="animate-text scroll-spy">
+        <h2 class="hidden">animate효과</h2>
+        <div class="left-box back-to-position to-left delay-3">
+            <p class="text1">신라호텔은</p>
+            <p class="text2">산책코스도 있어요</p>
+            <p class="text3">정말 좋죠?</p>
+            <p class="text4">
+                신라호텔을 만들면서 무슨 생각을 하나요?<br />
+                아무 글이나 쓰는 중 입니다.<br />
+                애니메이션 만들기
+            </p>
+            <p class="text4">
+                신라호텔을 만들면서 무슨 생각을 하나요?<br />
+                아무 글이나 쓰는 중 입니다.<br />
+                애니메이션 만들기
+            </p>
+        </div>
+        <div class="right-box back-to-position to-right delay-3">
+            <img src="./imges/Acos.jpg" alt="goods" />
+        </div>
+    </section>
+
+    <div class="total__modal">
+        <div class="demo-btns">
+            <div class="info">
+                <div class="buttons">
+                    <p>
+                        <a href="" data-modal="#modal" class="modal__trigger">3층지도</a>
+                        <a href="" data-modal="#modal2" class="modal__trigger">4층지도</a>
+                        <a href="" data-modal="#modal3" class="modal__trigger">5층지도</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal modal__bg" role="dialog" aria-hidden="true">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <h1>3층지도</h1>
+                <img src="./imges/3F_Floor_Map.gif" alt="위치도">
+
+                <!-- modal close button -->
+                <a href="" class="modal__close demo-close">
+                    <svg class="" viewBox="0 0 24 24">
+                        <path
+                            d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z" />
+                        <path d="M0 0h24v24h-24z" fill="none" />
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <div id="modal2" class="modal modal__bg" role="dialog" aria-hidden="true">
+        
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <h1>4층지도</h1>
+                
+                
+                <img src="./imges/5F_Floor_Map.gif" alt="4층지도">
+                <!-- modal close button -->
+                <a href="" class="modal__close demo-close">
+                    <svg class="" viewBox="0 0 24 24">
+                        <path
+                            d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z" />
+                        <path d="M0 0h24v24h-24z" fill="none" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="modal3" class="modal modal__bg" role="dialog" aria-hidden="true">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <h1>Modal 3</h1>
+                <p>Church-key American Apparel trust fund, cardigan mlkshk small batch Godard mustache pickled bespoke
+                    meh seitan. Wes Anderson farm-to-table vegan, kitsch Carles 8-bit gastropub paleo YOLO jean shorts
+                    health goth lo-fi.</p>
+
+                <!-- modal close button -->
+                <a href="" class="modal__close demo-close">
+                    <svg class="" viewBox="0 0 24 24">
+                        <path
+                            d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z" />
+                        <path d="M0 0h24v24h-24z" fill="none" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 이미지 호버 사진들 -->
+    <section class="img-hover">
+        <div class="text-title">
+            <h2>Room Package</h2>
+        </div>
+
+        <div class="room rooms1">
+            <div class="good">
+                <img src="./imges/jacugi.jpg" alt="첫">
+            </div>
+            <h2>자쿠지</h2>
+            <p>자쿠지입ㄴ다</p>
+
+        </div>
+        <div class="room rooms2">
+            <div class="good">
+                <img src="./imges/gym1.jpg" alt="둘">
+            </div>
+            <h2>헬스장</h2>
+            <p>헬스 입니다</p>
+        </div>
+        <div class="room rooms3">
+            <div class="good">
+                <img src="./imges/joging_cos.jpg" alt="셋">
+            </div>
+            <h2>조깅</h2>
+            <p>조깅 입니다</p>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/modal.js"></script>
+
+
+</body>
+
+</html>
